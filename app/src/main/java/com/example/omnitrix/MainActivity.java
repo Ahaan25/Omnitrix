@@ -17,7 +17,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         launchsound.start();
-        launchsound.stop();
+        //launchsound.stop();
         new Handler().postDelayed(new Runnable(){
             @Override
             public void run() {
