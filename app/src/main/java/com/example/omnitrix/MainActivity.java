@@ -9,14 +9,14 @@ import android.provider.MediaStore;
 
 
 public class MainActivity extends Activity {
-    public MediaPlayer launchsound=MediaPlayer.create(this, R.raw.omnitrixlaunchsound);
+    //public MediaPlayer launchsound=MediaPlayer.create(this, R.raw.omnitrixlaunchsound);
 
     private static int sp=1000;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        launchsound.start();
+        //launchsound.start();
         //launchsound.stop();
         new Handler().postDelayed(new Runnable(){
             @Override
